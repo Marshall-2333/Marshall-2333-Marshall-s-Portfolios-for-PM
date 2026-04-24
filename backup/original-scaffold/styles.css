@@ -53,11 +53,6 @@ body {
   margin: 0;
 }
 
-.nav li + li {
-  border-left: 1px solid #cfd5e6;
-  padding-left: 1rem;
-}
-
 .nav a {
   text-decoration: none;
   color: var(--muted);
@@ -157,44 +152,6 @@ h1 {
   border-top: 1px solid var(--border);
   padding: 1.2rem 0;
   background: #fff;
-}
-
-.modal.hidden {
-  display: none;
-}
-
-.modal {
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-}
-
-.modal-backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-}
-
-.modal-content {
-  position: relative;
-  width: min(560px, 90%);
-  margin: 18vh auto 0;
-  background: #fff;
-  border-radius: 14px;
-  padding: 1.2rem 1.2rem 1rem;
-  box-shadow: var(--shadow);
-  z-index: 1;
-}
-
-.modal-close {
-  border: none;
-  background: transparent;
-  font-size: 1.4rem;
-  line-height: 1;
-  position: absolute;
-  top: 0.6rem;
-  right: 0.8rem;
-  cursor: pointer;
 }
 
 @media (max-width: 900px) {
