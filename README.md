@@ -1,7 +1,7 @@
 # Marshall's PM 作品集
 
-这是一个轻量静态前端作品集页面，当前用于展示产品经理方向的个人经历与案例结构，可点击以部署网站直接查看：
-https://marshall-2333.github.io/Marshall-2333-Marshall-s-Portfolios-for-PM/
+我的作品集前端页面，用于展示产品经理方向的个人经历与产出，可点击部署网站直接查看：
+https://marshallll2333.github.io/PM-Portfolios/
 
 
 ## 主要页面
