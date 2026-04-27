@@ -122,6 +122,37 @@ h1 {
   margin: 0.35rem 0;
 }
 
+.project-example {
+  margin-top: 0.7rem;
+}
+
+.project-example summary {
+  display: inline-block;
+  cursor: pointer;
+  list-style: none;
+}
+
+.project-example summary::-webkit-details-marker {
+  display: none;
+}
+
+.project-image {
+  width: 100%;
+  margin-top: 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.project-image-placeholder {
+  margin-top: 0.75rem;
+  padding: 1.5rem 0.8rem;
+  text-align: center;
+  color: var(--muted);
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  background: #fafbff;
+}
+
 .hero-actions {
   display: flex;
   gap: 0.8rem;
