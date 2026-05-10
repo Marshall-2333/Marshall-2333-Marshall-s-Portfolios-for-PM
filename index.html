@@ -183,9 +183,17 @@
     </section>
   </main>
 
-  <footer class="footer">
+<footer class="footer">
     <div class="container">
       <small>© <span id="year"></span> Marshall的产品经理作品集</small>
+      <br /> <!-- 换行，让访问量显示在版权信息下方 -->
+      
+      <!-- 浏览量统计模块开始 -->
+      <small id="busuanzi_container_site_pv" style="display:none;">
+        👁️ 作品集总访问量：<span id="busuanzi_value_site_pv"></span> 次
+      </small>
+      <!-- 浏览量统计模块结束 -->
+      
     </div>
   </footer>
 
@@ -198,7 +206,10 @@
       <small>真的想看？联系主包的QQ吧：924104054</small>
     </div>
   </div>
-
+  
+  <!-- 引入不蒜子全局访问量统计脚本 -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
   <script src="script.js"></script>
 </body>
 </html>
